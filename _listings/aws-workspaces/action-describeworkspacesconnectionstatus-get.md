@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeWorkspacesConnectionStatus&k=1:
+  /?Action=DescribeWorkspacesConnectionStatus:
     get:
       summary: ' Describe Workspaces Connection Status '
       description: Describes the connection status of a specified WorkSpace
