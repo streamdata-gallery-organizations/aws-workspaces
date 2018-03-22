@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=ModifyWorkspaceProperties&k=1:
+  /?Action=ModifyWorkspaceProperties:
     get:
       summary: ' Modify Workspace Properties '
       description: Modifies the WorkSpace properties, including the running mode and
