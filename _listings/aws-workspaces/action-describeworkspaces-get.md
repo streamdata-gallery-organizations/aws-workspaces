@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeWorkspaces&k=1:
+  /?Action=DescribeWorkspaces:
     get:
       summary: ' Describe Workspaces '
       description: Obtains information about the specified WorkSpaces
