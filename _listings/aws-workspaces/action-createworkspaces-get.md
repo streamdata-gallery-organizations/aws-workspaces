@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=CreateWorkspaces&k=1:
+  /?Action=CreateWorkspaces:
     get:
       summary: ' Create Workspaces '
       description: Creates one or more WorkSpaces
