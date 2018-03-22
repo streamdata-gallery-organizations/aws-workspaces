@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeWorkspaceBundles&k=1:
+  /?Action=DescribeWorkspaceBundles:
     get:
       summary: ' Describe Workspace Bundles '
       description: Obtains information about the WorkSpace bundles that are available
