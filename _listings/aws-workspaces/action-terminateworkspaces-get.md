@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=TerminateWorkspaces&k=1:
+  /?Action=TerminateWorkspaces:
     get:
       summary: ' Terminate Workspaces '
       description: Terminates the specified WorkSpaces
