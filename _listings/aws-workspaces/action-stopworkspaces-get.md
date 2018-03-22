@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=StopWorkspaces&k=1:
+  /?Action=StopWorkspaces:
     get:
       summary: ' Stop Workspaces '
       description: Stops the specified WorkSpaces
