@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=RebootWorkspaces&k=1:
+  /?Action=RebootWorkspaces:
     get:
       summary: ' Reboot Workspaces '
       description: Reboots the specified WorkSpaces
